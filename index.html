@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DronePizza Leveringer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <h1>DronePizza Leveringer</h1>
+</header>
+<main>
+  <section class="controls">
+    <button id="add-drone-btn" onclick="addDrone()">Opret ny drone</button>
+    <button id="simulate-delivery-btn" onclick="simulateDelivery()">Simuler levering</button>
+  </section>
+
+  <div id="messages" class="messages"></div>
+
+  <section id="delivery-list" class="delivery-list">
+    <!-- Leveringer vil blive indlæst her -->
+  </section>
+</main>
+<footer>
+  <p>DronePizza &copy; 2025</p>
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>
